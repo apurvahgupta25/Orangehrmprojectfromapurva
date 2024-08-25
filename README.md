@@ -1,15 +1,6 @@
-# Orangehrmprojectfromapurva
-use pytest and page object model frameowrk
-load webdriver in config.py
-use get method to navigate the website "https://opensource-demo.orangehrmlive.com"
-design xpath of username and password in login page .Provide credentials to login. click on login button using xpath
-Verify the login is sucessfull using assert
-then search the name using xpath and send_keys() 
-Refresh the wevdriver
-Click on admin then user management/user 
-Search the record using username
-Then click on add button to add record 
-send values to all webelement using send_keys()
-Click on save button
-Verify that record save sucessfully
-
+# Orange HRM Project
+This project uses pytest and page object model framework to test the website "[https://opensource-demo.orangehrmlive.com](https://opensource-demo.orangehrmlive.com/)"
+1. This file ([test_login_page.py](https://github.com/apurvahgupta25/Orangehrmprojectfromapurva/blob/main/OrangeHrmSekeltech/test/test_login_page.py "test_login_page.py")) is used to automate the login functionality of the application
+2. This file ([test_search_page.py](https://github.com/apurvahgupta25/Orangehrmprojectfromapurva/blob/main/OrangeHrmSekeltech/test/test_search_page.py "test_search_page.py")) is used to automate the search functionality.
+3. This file ([test_tadd_new_user.py](https://github.com/apurvahgupta25/Orangehrmprojectfromapurva/blob/main/OrangeHrmSekeltech/test/test_tadd_new_user.py "test_tadd_new_user.py")) is used to automate the process of adding a user.
+4. This file ([Get_request.py](https://github.com/apurvahgupta25/Orangehrmprojectfromapurva/blob/main/OrangeHrmSekeltech/test/Get_request.py "Get_request.py")) is used to test the API endpoint that provides product details.
